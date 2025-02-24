@@ -1,10 +1,10 @@
 import { useState } from "react";
 import emailJs from "@emailjs/browser"
+import {ToastContainer,toast} from "react-toastify";
 const FormYRedes = () => {
-        const numero = 543875898903;
-        const mensaje = "¡Hola👋! Me interesa conocer más sobre algunos de tus servicios";
-        const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`
-    
+    const numero = 543875898903;
+    const mensaje = "¡Hola👋! Me interesa conocer más sobre algunos de tus servicios";
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`
     const [formData, setFormData] = useState({
             name: "",
             email: "",
@@ -26,7 +26,16 @@ const FormYRedes = () => {
         )
         .then((res) => {
             console.log("Mensaje Enviado", res);
-            alert("El mensaje se ha enviado correctamente")
+            toast.success('El mensaje se ha enviado correctamente', {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
             setFormData({
                 name: "",
                 email: "",
@@ -68,6 +77,18 @@ return(
                     </label>
                     <button type="submit" className="btn-form">Enviar</button>
                 </form>
+                <ToastContainer
+                position="top-right"
+                autoClose={3000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick={false}
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="dark"
+                />
             </div>
         </div>
     )
