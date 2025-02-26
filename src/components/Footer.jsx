@@ -13,7 +13,7 @@ return (
         <div className="footer-section">
             <h3>Síguenos</h3>
             <div className="social-icons">
-                <a href="https://www.instagram.com/seven.studio.design/"><img src="./public/ico-ig.svg" alt="ICONO INSTAGRAM" className="ico-footer"/></a>
+                <a href="https://www.instagram.com/seven.studio.design/" target="_blankc"><img src="./public/ico-ig.svg" alt="ICONO INSTAGRAM" className="ico-footer"/></a>
                 <a href="https://www.linkedin.com/in/seven-studio7/" target="_blank"><img src="./public/ico-lk.svg" alt="ICONO LINKEDIN" className="ico-footer"/></a>
                 <a href="https://www.facebook.com/profile.php?id=61573744315547" target="_blank"><img src="./public/ico-fb.svg" alt="ICONO FACEBOOK" className="ico-footer"/></a>
             </div>
