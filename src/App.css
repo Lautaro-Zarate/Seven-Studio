@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 @font-face {
+    src: url(/Blanka-Regular.otf);
     font-family: "Blanka";
-    src: url(fonts/Blanka-Regular.otf);
 }
 *{
     margin: 0;
@@ -193,7 +193,7 @@
 body{
     background-color: #000000;
     color: whitesmoke;
-    font-family: "Dm sans", serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif, serif;
     background-image: url(public/bg-body.gif);
     background-repeat: repeat-y;
     background-position: center;
