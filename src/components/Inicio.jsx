@@ -7,7 +7,7 @@ const Inicio = () => {
     return(
         <div>
             <header className="header-container">
-                <img src="brand.png" alt="Logo" className="brand"/>
+                <img src="/brand.png" alt="Logo" className="brand"/>
                 <h1>Desarrollo web</h1>
                 <h2>En <b>Seven Studio</b> transformamos tus ideas en sitios web que destacan.</h2>
                 <p className="p-header">Trabajamos contigo para desarrollar una página que refleje la esencia de tu marca y conecte con tus clientes</p>

@@ -51,13 +51,13 @@ return(
             <div className="redes-container">
                 <div className="card-redes">
                     <a href="https://www.instagram.com/seven.studio.design/" target="_blank">
-                        <img src="../public/ico-ig.svg" alt="CUENTA DE INSTAGRAM" className="redes-img"/>
+                        <img src="/ico-ig.svg" alt="CUENTA DE INSTAGRAM" className="redes-img"/>
                     </a>
                     <h3>Instagram</h3>
                 </div>
                 <div className="card-redes">
                     <a href={url} target="_blank">
-                        <img src="../public/ico-wpp.svg" alt="CUENTA DE WPP" className="redes-img"/>
+                        <img src="/ico-wpp.svg" alt="CUENTA DE WPP" className="redes-img"/>
                     </a>
                     <h3>Whatsapp</h3>
                 </div>

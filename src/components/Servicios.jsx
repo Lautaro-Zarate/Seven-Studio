@@ -6,7 +6,7 @@ const Servicios = () => {
                 <h2 className="title-servicios">¿Que hacemos?</h2>
                 <div className="services-container-secondary">
                     <div className="cards-services cards1">
-                        <img src="dw.png" alt="ICONO-DESARROLLO-WEB"/>
+                        <img src="/dw.png" alt="ICONO-DESARROLLO-WEB"/>
                         <div className="cards-services-secondary">
                             <h3 className="title-services-card">Desarrollo web de landing pages</h3>
                             <ul>
@@ -17,7 +17,7 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className="cards-services cards2">
-                        <img src="uiux.png" alt="ICONO-DISEÑO UX/UI"/>
+                        <img src="/uiux.png" alt="ICONO-DISEÑO UX/UI"/>
                         <div className="cards-services-secondary">
                             <h3 className="title-services-card">Diseno UI/UX</h3>
                             <ul>
@@ -28,7 +28,7 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className="cards-services cards3">
-                        <img src="e-commerce.png" alt="ICONO E-COMMERCE"/>
+                        <img src="/e-commerce.png" alt="ICONO E-COMMERCE"/>
                         <div className="cards-services-secondary">
                             <h3 className="title-services-card">E-commerce</h3>
                             <ul>
@@ -39,7 +39,7 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className="cards-services cards4">
-                        <img src="mantenimiento.png" alt="ICONO MANTENIMIENTO Y SOPORTE"/>
+                        <img src="/mantenimiento.png" alt="ICONO MANTENIMIENTO Y SOPORTE"/>
                         <div className="cards-services-secondary">
                             <h3 className="title-services-card">Soporte y mantenimiento</h3>
                             <ul>
@@ -50,7 +50,7 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className="cards-services cards5">
-                        <img src="branding.png" alt="ICONO BRANDING"/>
+                        <img src="/branding.png" alt="ICONO BRANDING"/>
                         <div className="cards-services-secondary">
                             <h3 className="title-services-card">Branding y diseno gráfico</h3>
                             <ul>
