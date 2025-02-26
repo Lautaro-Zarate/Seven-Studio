@@ -193,7 +193,7 @@
 body{
     background-color: #000000;
     color: whitesmoke;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif, serif;
+    font-family: "Dm Sans", serif;
     background-image: url(public/bg-body.gif);
     background-repeat: repeat-y;
     background-position: center;
