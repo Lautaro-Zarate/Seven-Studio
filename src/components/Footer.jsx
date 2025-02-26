@@ -5,7 +5,7 @@ return (
         <div className="footer-container">
         {/* Logo y descripción */}
         <div className="footer-section">
-            <img src="./public/brand.png" alt="Logo Footer" className="logo-footer"/>
+            <img src="/brand.png" alt="Logo Footer" className="logo-footer"/>
             <h2 className="footer-logo">Agencia Web</h2>
             <p>Desarrollamos soluciones digitales para potenciar tu negocio.</p>
         </div>
