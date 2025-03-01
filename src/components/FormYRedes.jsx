@@ -2,7 +2,7 @@ import { useState } from "react";
 import emailJs from "@emailjs/browser"
 import {ToastContainer,toast} from "react-toastify";
 const FormYRedes = () => {
-    const numero = 543875898903;
+    const numero = 543872570741;
     const mensaje = "¡Hola👋! Me interesa conocer más sobre algunos de tus servicios";
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`
     const [formData, setFormData] = useState({

@@ -1,6 +1,6 @@
 const Inicio = () => {
     const btnWhatsapp = () => {
-    const numero = 543875898903;
+    const numero = 543872570741;
     const mensaje = "¡Hola👋! Me interesa conocer más sobre algunos de tus servicios";
     window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`, "_blank")
 }
